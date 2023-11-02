@@ -88,6 +88,7 @@ Clone this repository like so,
  ```sh
  # Compile client and server
 ./compile.bash 
+```
 
 And that's all.
 
@@ -135,4 +136,5 @@ More references can be found inside the code.
 
 ## Author
 Original author: Edgar Hernandez
+
 Owner of this fork: Lorenzo Ricotti
