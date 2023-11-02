@@ -43,7 +43,6 @@ What can I say, I love ncurses and I wanted to do an example of something that r
 This was just a project made out of curiosity, the use that you might give to this tool is at your own risk. 
 
 ## Description
-
 This command line TCP Chat was built using [ncurses](https://www.gnu.org/software/ncurses/). 
 
 #### Server
@@ -57,6 +56,13 @@ Every client will then encrypt their messages with the other listening  clients'
 Once the encrypted message is received on the other clients' side, it is unencrypted using the user's `private key`.
 
 **The client renews its key pairs everytime you start it.**
+
+## Compilation
+Two simple scripts are provided, one to compile everything, one to clean everything up.
+1. compile.bash
+2. clean.bash
+
+
 
 ## Usage
 
