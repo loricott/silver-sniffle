@@ -62,31 +62,29 @@ Two simple scripts are provided, one to compile everything, one to clean everyth
 1. compile.bash
 2. clean.bash
 
-
+The client source code is stored under the 'src' directory.
+The server source code is stored under the 'server' directory.
+When compiling, the two directories 'build_server' and 'build_client' are created.
 
 ## Usage
-
-Once the installation has been done,
+Once the compilation has been done,
 
 As per default, the port to which the server is connecting to is `54000`
 
 **Starting the Server** (In case you are running the server)
-
 ```sh
-source silver_server
+./build_server/silver_server
 ```
 
 **Starting the Client**
-
 ```sh
-source silver_sniffle -a 127.0.0.1 54000
+.//build_client/executable/silver_sniffle -a 127.0.0.1 54000
 ```
 
 `127.0.0.1` and the port `54000` could be changed for example to your own `TCP` address if you've got one. Of course, the server would have to be running on that address. 
 
 
 ## Dependencies
-
  1. [ncurses](https://www.gnu.org/software/ncurses/)``` sudo apt install libncurses5-dev libncursesw5-dev```
  2. [Open SSL](https://www.openssl.org/) ``` sudo apt-get install libssl-dev```
  3. [cmake](https://www.gnu.org/software/make/) ``` sudo apt-get -y install cmake```
