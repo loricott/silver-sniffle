@@ -30,7 +30,7 @@ Conntact me on twitter [![Tweet](https://img.shields.io/twitter/url/http/shields
 ## Table of Contents
 
 1. [Motivation and Disclaimer](#motivation-and-disclaimer)
-2. [Notes about this fork]{#notes-about-this-fork}
+2. [Notes about this fork](#notes-about-this-fork)
 3. [Description](#description)
 4. [Dependencies](#dependencies)
 5. [Compilation](#compilation)
