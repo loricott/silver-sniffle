@@ -101,6 +101,7 @@ int Server::initServer() {
   FD_ZERO(&_master);
   // Add to set
   FD_SET(_listening, &_master);
+  return( 0 );
 }
 
 void Server::runServer() {
