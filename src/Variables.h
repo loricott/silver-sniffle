@@ -2,4 +2,4 @@
     If you want to change the path of the executable, then you need to specify this on your own and rebuild only
     with `make` command
 */
-#define CERTIFICATES_PATH " "
+#define CERTIFICATES_PATH "/home/lor/projects/silver-sniffle/build/executable/certificates/"
