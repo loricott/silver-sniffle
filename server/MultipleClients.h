@@ -11,6 +11,7 @@ Server class definition
 
 #include <set>
 #include <map>
+#include <string>
 
 class Server {
 public:
